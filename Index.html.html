@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>khayr.consult | Procurement, Cost Estimating, Budgeting and Construction in Nigeria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F5EF;--surface:#FFFFFF;--text:#1B2420;--muted:#55605A;--accent:#1F5C45;--on-accent:#FFFFFF;--gold:#8A6414;--line:#DDD8CA;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1714;--surface:#17211D;--text:#E8ECE9;--muted:#A3B0A9;--accent:#4FB38A;--on-accent:#0B1410;--gold:#E0B85A;--line:#2A3731}}
+:root[data-theme="dark"]{--bg:#0F1714;--surface:#17211D;--text:#E8ECE9;--muted:#A3B0A9;--accent:#4FB38A;--on-accent:#0B1410;--gold:#E0B85A;--line:#2A3731}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;margin:0}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:9}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font-family:'Fraunces',serif;font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
+.logo span{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);border:0;border-radius:10px;padding:12px 20px;font:600 15px 'Inter',sans-serif;text-decoration:none;cursor:pointer;min-height:44px}
+.btn.alt{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.hero{padding:56px 0 40px}
+.hero h1{font-size:clamp(32px,6vw,52px);max-width:760px}
+.hero p{font-size:18px;color:var(--muted);max-width:620px;margin:16px 0 24px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:40px 0}
+section h2{font-size:clamp(26px,4vw,34px);margin-bottom:8px}
+.sub{color:var(--muted);margin:0 0 24px;max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{font-size:19px;margin-bottom:6px}
+.card p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.fee{font-weight:600;color:var(--gold);font-size:14px}
+.num{width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center;font-weight:600;margin-bottom:10px}
+form{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.f{display:flex;flex-direction:column;gap:6px}
+.f.full{grid-column:1/-1}
+label{font-size:14px;font-weight:600}
+input,select,textarea{font:16px 'Inter',sans-serif;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px;min-height:44px;width:100%}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+.sum{background:var(--bg);border:1px dashed var(--gold);border-radius:12px;padding:14px 16px}
+.sum b{color:var(--gold);font-size:20px}
+.note{font-size:13px;color:var(--muted);margin:0}
+.join{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);margin-top:24px;padding:28px 0;color:var(--muted);font-size:14px}
+footer b{color:var(--text)}
+@media (max-width:640px){form{grid-template-columns:1fr;padding:18px}.hero{padding-top:36px}.nav .btn{padding:10px 14px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#top">khayr<span>.consult</span></a>
+<a class="btn" href="#request">Request consultation</a>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+<h1>Trusted procurement, cost estimating and construction guidance in Nigeria</h1>
+<p>Based in Kano, we help clients anywhere in the world source reliable vendors and suppliers, price their projects realistically and plan their budgets with confidence.</p>
+<div class="row"><a class="btn" href="#request">Request consultation</a><a class="btn alt" href="#services">See services</a></div>
+</div>
+
+<section id="services"><div class="wrap">
+<h2>What we do</h2>
+<p class="sub">Choose a service below. The consultation fee is shown upfront and is included with every request.</p>
+<div class="grid" id="cards"></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>How it works</h2>
+<p class="sub">Three simple steps, from anywhere in the world.</p>
+<div class="grid">
+<div class="card"><div class="num">1</div><h3>Send your request</h3><p>Tell us what you need, your budget and your timeline. Your consultation fee is shown before you send.</p></div>
+<div class="card"><div class="num">2</div><h3>We confirm the scope</h3><p>We reply on WhatsApp or email to confirm the details and share payment instructions for the consultation fee.</p></div>
+<div class="card"><div class="num">3</div><h3>Get your results</h3><p>Receive shortlisted vendors or suppliers, a cost estimate or a budget plan, matched to your project.</p></div>
+</div>
+</div></section>
+
+<section id="request"><div class="wrap">
+<h2>Request a consultation</h2>
+<p class="sub">Fill in the form and send it by WhatsApp or email. No account needed.</p>
+<form id="rf" novalidate>
+<div class="f"><label for="name">Full name</label><input id="name" required autocomplete="name"></div>
+<div class="f"><label for="country">Country</label><input id="country" required autocomplete="country-name"></div>
+<div class="f"><label for="email">Email</label><input id="email" type="email" required autocomplete="email"></div>
+<div class="f"><label for="phone">WhatsApp / phone (with country code)</label><input id="phone" type="tel" required autocomplete="tel" placeholder="+234 …"></div>
+<div class="f"><label for="service">Service needed</label><select id="service" required></select></div>
+<div class="f"><label for="budget">Estimated budget</label>
+<select id="budget"><option>Not sure yet</option><option>Under ₦1 million</option><option>₦1 million to ₦10 million</option><option>₦10 million to ₦50 million</option><option>Above ₦50 million</option></select></div>
+<div class="f"><label for="timeline">Timeline</label>
+<select id="timeline"><option>Flexible</option><option>Within 1 month</option><option>1 to 3 months</option><option>3 to 6 months</option></select></div>
+<div class="f"><label for="loc">Project location in Nigeria</label><input id="loc" placeholder="e.g. Kano, Abuja, Lagos"></div>
+<div class="f full"><label for="details">Project details</label><textarea id="details" required placeholder="Describe what you need: materials, size of project, vendor type, plans or drawings available…"></textarea></div>
+<div class="f full"><div class="sum" aria-live="polite">Consultation fee for this request: <b id="feeOut">…</b><p class="note">The fee is included with every request. Payment details are shared after we confirm your scope.</p></div></div>
+<div class="f full"><div class="row">
+<button class="btn" type="submit">Send via WhatsApp</button>
+<button class="btn alt" type="button" id="em">Send via email</button>
+</div></div>
+</form>
+</div></section>
+
+<section><div class="wrap">
+<div class="join">
+<div><h3>Supplier, vendor or contractor in Nigeria?</h3><p class="sub" style="margin:6px 0 0">Join our network and get matched with clients who need what you offer.</p></div>
+<a class="btn alt" id="joinBtn" href="#">Join our network</a>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<p><b>khayr.consult</b><br>Kano, Nigeria<br>
+Phone / WhatsApp: <a href="tel:+2348100859585">08100859585</a><br>
+Email: <a href="mailto:khayr.consult@gmail.com">khayr.consult@gmail.com</a></p>
+</div></footer>
+
+<script>
+// Edit the fees (in Naira) to match your pricing.
+var FEES = {
+  "Procurement and sourcing": 25000,
+  "Cost estimation": 30000,
+  "Project budgeting": 20000,
+  "Construction consulting": 50000
+};
+var DESC = {
+  "Procurement and sourcing": "We help you find and compare reliable suppliers for materials, equipment and finishes.",
+  "Cost estimation": "Material take-offs and bills of quantities based on current Nigerian market rates.",
+  "Project budgeting": "Phased budgets, cash-flow planning and a sensible contingency for your project.",
+  "Construction consulting": "Guidance on contractor selection, quotes, quality checks and project delivery."
+};
+var WA = "2348100859585", MAIL = "khayr.consult@gmail.com";
+var $ = function(id){ return document.getElementById(id); };
+var naira = function(n){ return "₦" + n.toLocaleString("en-NG"); };
+
+var cards = $("cards"), sel = $("service");
+Object.keys(FEES).forEach(function(k){
+  var d = document.createElement("div"); d.className = "card";
+  d.innerHTML = "<h3>" + k + "</h3><p>" + DESC[k] + "</p><div class='fee'>Consultation fee: " + naira(FEES[k]) + "</div>";
+  cards.appendChild(d);
+  var o = document.createElement("option"); o.value = k; o.textContent = k + " (" + naira(FEES[k]) + ")";
+  sel.appendChild(o);
+});
+function updateFee(){ $("feeOut").textContent = naira(FEES[sel.value]); }
+sel.addEventListener("change", updateFee); updateFee();
+
+function build(){
+  var g = function(i){ return $(i).value.trim(); };
+  return "Hello khayr.consult, I would like to request a consultation.\n\n" +
+    "Name: " + g("name") + "\nCountry: " + g("country") + "\nEmail: " + g("email") + "\nWhatsApp/Phone: " + g("phone") +
+    "\nService: " + g("service") + "\nConsultation fee: " + naira(FEES[sel.value]) +
+    "\nBudget: " + g("budget") + "\nTimeline: " + g("timeline") + "\nProject location: " + (g("loc") || "Not stated") +
+    "\n\nDetails:\n" + g("details");
+}
+$("rf").addEventListener("submit", function(e){
+  e.preventDefault();
+  if(!this.reportValidity()) return;
+  window.open("https://wa.me/" + WA + "?text=" + encodeURIComponent(build()), "_blank", "noopener");
+});
+$("em").addEventListener("click", function(){
+  var f = $("rf");
+  if(!f.reportValidity()) return;
+  window.location.href = "mailto:" + MAIL + "?subject=" + encodeURIComponent("Consultation request: " + sel.value) + "&body=" + encodeURIComponent(build());
+});
+$("joinBtn").href = "https://wa.me/" + WA + "?text=" + encodeURIComponent("Hello khayr.consult, I am a supplier/vendor/contractor in Nigeria and would like to join your network.\n\nBusiness name:\nWhat we supply or do:\nLocation:\nWebsite or portfolio:");
+$("joinBtn").target = "_blank"; $("joinBtn").rel = "noopener";
+</script>
+</body>
+</html>
